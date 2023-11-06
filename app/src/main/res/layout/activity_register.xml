@@ -65,7 +65,7 @@
         app:layout_constraintEnd_toEndOf="@id/guideline2"
         app:layout_constraintStart_toStartOf="@id/guideline1"
         app:layout_constraintTop_toBottomOf="@+id/til2"
-        app:startIconDrawable="@drawable/ic_paswordicon"
+        app:startIconDrawable="@drawable/ic_repeat"
         >
         <EditText
             android:layout_width="match_parent"
