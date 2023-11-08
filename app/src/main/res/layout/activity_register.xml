@@ -80,7 +80,8 @@
         app:layout_constraintStart_toStartOf="@id/guideline1"
         app:layout_constraintTop_toBottomOf="@+id/til3"
         android:text="SIGNUP"
-        style="@style/botonplano"></Button>
+        style="@style/botonplano"
+        android:onClick="openSignup"></Button>
 
     <Button
         android:id="@+id/boton2"
