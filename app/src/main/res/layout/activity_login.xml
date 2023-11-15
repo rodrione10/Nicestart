@@ -9,12 +9,17 @@
     >
 
     <ImageView
+        android:id="@+id/girl"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/girl"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.9"
+        android:background="@drawable/gradient"/>
 
     <ImageView
         android:id="@+id/logo"
