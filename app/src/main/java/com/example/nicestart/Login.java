@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
 public class Login extends AppCompatActivity {
@@ -25,6 +26,13 @@ public class Login extends AppCompatActivity {
                 .centerCrop()
                 .placeholder(new ColorDrawable(this.getResources().getColor(R.color.teal_700)))
                 .into(mGirl);
+
+        ImageView mRayo = findViewById(R.id.logo);
+        Glide.with(this)
+                .load(R.drawable.iconrayo)
+                .diskCacheStrategy(DiskCacheStrategy.ALL)
+                .into(mRayo);
+
     }
     public void openMain(View v){
         Intent intent = new Intent(Login.this, MainActivity.class);

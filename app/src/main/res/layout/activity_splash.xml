@@ -15,10 +15,9 @@
         app:layout_constraintTop_toTopOf="parent"></ImageView>
 
     <ImageView
-        android:id="@+id/rayo"
+        android:id="@+id/logo"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:src="@drawable/iconrayo"
         android:layout_marginTop="120dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

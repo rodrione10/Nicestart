@@ -31,9 +31,14 @@ public class Splash extends AppCompatActivity {
                 .placeholder(new ColorDrawable(this.getResources().getColor(R.color.teal_700)))
                 .into(mSplash);
         ImageView logo;
-        logo= findViewById(R.id.rayo);
+        logo= findViewById(R.id.logo);
         Animation rotate = AnimationUtils.loadAnimation(this,R.anim.blink);
         logo.startAnimation(rotate);
+        ImageView mRayo = findViewById(R.id.logo);
+        Glide.with(this)
+                .load(R.drawable.iconrayo)
+                .diskCacheStrategy(DiskCacheStrategy.ALL)
+                .into(mRayo);
     }
     private void openApp(){
         Handler handler=new Handler();
