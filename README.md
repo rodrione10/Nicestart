@@ -18,3 +18,5 @@
 **En el main tengo una valoracion**
 
 ![login activity](app/img/CapturaMain.PNG)
+
+**Hemos realizado pull request**
