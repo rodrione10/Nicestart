@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -18,6 +20,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         final TextView welcomeText = findViewById(R.id.welcomeText);
+
+        //animacion hecha por javi
+        ImageView log = findViewById(R.id.graciass);
+        Animation rotate = AnimationUtils.loadAnimation(this, R.anim.move);
+        log.startAnimation(rotate);
 
         // Definir una animación de desvanecimiento
         Animation fadeIn = new AlphaAnimation(0, 1);

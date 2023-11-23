@@ -27,4 +27,13 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="150dp"/>
 
+    <ImageView
+        android:id="@+id/graciass"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="500dp"
+        android:src="@drawable/gracias"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
