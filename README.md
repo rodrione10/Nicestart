@@ -19,4 +19,4 @@
 
 ![login activity](app/img/CapturaMain.PNG)
 
-**Hemos realizado pull request**
+**He realizado un pull request a Jaime Ramirez**
