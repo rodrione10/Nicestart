@@ -19,4 +19,10 @@
 
 ![login activity](app/img/CapturaMain.PNG)
 
-**He realizado un pull request a Jaime Ramirez**
+**He realizado un pull request a Jaime Ramirez y lo ha aceptado en su proyecto**
+
+![login activity](app/img/CapturaPull.PNG)
+
+**Esta es una animacion creada**
+
+![login activity](app/img/migif.gif)
