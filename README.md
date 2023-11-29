@@ -11,7 +11,7 @@
 
 ![login activity](app/img/CapturaNoPeople.PNG)
 
-**Esto es la animacion de inicio**
+**Esto es la pantalla de inicio**
 
 ![login activity](app/img/CapturaSplash.PNG)
 
